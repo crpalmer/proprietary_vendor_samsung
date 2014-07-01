@@ -58,14 +58,14 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
-	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-	vendor/samsung/mondrianwifi/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
-	vendor/samsung/mondrianwifi/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+	vendor/samsung/mondrianwifi/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
+	vendor/samsung/mondrianwifi/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
 	vendor/samsung/mondrianwifi/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
 	vendor/samsung/mondrianwifi/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
@@ -87,7 +87,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/mondrianwifi/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
 	vendor/samsung/mondrianwifi/proprietary/lib/libfactoryutil.so:system/lib/libfactoryutil.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
-	vendor/samsung/mondrianwifi/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
 	vendor/samsung/mondrianwifi/proprietary/lib/libomission_avoidance.so:system/lib/libomission_avoidance.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
