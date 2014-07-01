@@ -201,10 +201,15 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
 	vendor/samsung/mondrianwifi/proprietary/bin/qseecomd:system/bin/qseecomd \
 	vendor/samsung/mondrianwifi/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+	vendor/samsung/mondrianwifi/proprietary/lib/libdrmframework.so:system/lib/libdrmframework.so \
 	vendor/samsung/mondrianwifi/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
+	vendor/samsung/mondrianwifi/proprietary/lib/liboem2.5.so:system/lib/liboem2.5.so \
+	vendor/samsung/mondrianwifi/proprietary/lib/libsectzpr.so:system/lib/libsectzpr.so \
 	vendor/samsung/mondrianwifi/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
 	vendor/samsung/mondrianwifi/proprietary/lib/libWVStreamControlAPI_L1.so:system/lib/libWVStreamControlAPI_L1.so \
+	vendor/samsung/mondrianwifi/proprietary/lib/libwvdrm_L1.so:system/lib/libwvdrm_L1.so \
 	vendor/samsung/mondrianwifi/proprietary/lib/libwvm.so:system/lib/libwvm.so \
+	vendor/samsung/mondrianwifi/proprietary/lib/drm/libprgenericplugin.so:system/lib/drm/libprgenericplugin.so \
 	vendor/samsung/mondrianwifi/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
@@ -212,7 +217,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
-	vendor/samsung/mondrianwifi/proprietary/lib/libwvm.so:system/lib/libwvm.so \
+	vendor/samsung/mondrianwifi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
 	vendor/samsung/mondrianwifi/proprietary/etc/sec_config:system/etc/sec_config \
 	vendor/samsung/mondrianwifi/proprietary/bin/irsc_util:system/bin/irsc_util \
 	vendor/samsung/mondrianwifi/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
