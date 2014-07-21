@@ -100,9 +100,12 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/mondrianwifi/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
 	vendor/samsung/mondrianwifi/proprietary/bin/time_daemon:system/bin/time_daemon \
 	vendor/samsung/mondrianwifi/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
-	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
+	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libDivxDrm.so:system/vendor/lib/libDivxDrm.so \
+	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
+	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
+	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
@@ -208,26 +211,19 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libchromatix_imx135_vt_hd.so:system/vendor/lib/libchromatix_imx135_vt_hd.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
-	vendor/samsung/mondrianwifi/proprietary/bin/insthk:system/bin/insthk \
 	vendor/samsung/mondrianwifi/proprietary/bin/qseecomd:system/bin/qseecomd \
-	vendor/samsung/mondrianwifi/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
-	vendor/samsung/mondrianwifi/proprietary/lib/drm/libplayreadyplugin.so:system/lib/drm/libplayreadyplugin.so \
-	vendor/samsung/mondrianwifi/proprietary/lib/drm/libprgenericplugin.so:system/lib/drm/libprgenericplugin.so \
 	vendor/samsung/mondrianwifi/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
 	vendor/samsung/mondrianwifi/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
-	vendor/samsung/mondrianwifi/proprietary/lib/liboem2.5.so:system/lib/liboem2.5.so \
-	vendor/samsung/mondrianwifi/proprietary/lib/libplayready_v2.0.so:system/lib/libplayready_v2.0.so \
-	vendor/samsung/mondrianwifi/proprietary/lib/libsectzpr.so:system/lib/libsectzpr.so \
 	vendor/samsung/mondrianwifi/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
+	vendor/samsung/mondrianwifi/proprietary/lib/libWVStreamControlAPI_L1.so:system/lib/libWVStreamControlAPI_L1.so \
 	vendor/samsung/mondrianwifi/proprietary/lib/libwvm.so:system/lib/libwvm.so \
+	vendor/samsung/mondrianwifi/proprietary/lib/drm/libdrmwvmplugin.so:system/lib/drm/libdrmwvmplugin.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
-	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
+	vendor/samsung/mondrianwifi/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
 	vendor/samsung/mondrianwifi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
 	vendor/samsung/mondrianwifi/proprietary/etc/sec_config:system/etc/sec_config \
 	vendor/samsung/mondrianwifi/proprietary/bin/irsc_util:system/bin/irsc_util \
