@@ -28,11 +28,11 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/tabpro-common/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
 	vendor/samsung/tabpro-common/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
 	vendor/samsung/tabpro-common/proprietary/etc/wifi/nvram_net.txt:system/etc/wifi/nvram_net.txt \
-	vendor/samsung/tabpro-common/proprietary/etc/firmware/bcm4335_A0.hcd:system/etc/firmware/bcm4335_A0.hcd \
-	vendor/samsung/tabpro-common/proprietary/etc/firmware/bcm4335.hcd:system/etc/firmware/bcm4335.hcd \
-	vendor/samsung/tabpro-common/proprietary/etc/firmware/bcm4335_murata.hcd:system/etc/firmware/bcm4335_murata.hcd \
-	vendor/samsung/tabpro-common/proprietary/etc/firmware/bcm4335_semco.hcd:system/etc/firmware/bcm4335_semco.hcd \
-	vendor/samsung/tabpro-common/proprietary/etc/firmware/BT_FW_VER_BCM4339_003.001.009.0031.0147_N1-LTE.hcd:system/etc/firmware/BT_FW_VER_BCM4339_003.001.009.0031.0147_N1-LTE.hcd \
+	vendor/samsung/tabpro-common/proprietary/vendor/firmware/bcm4335_A0.hcd:system/vendor/firmware/bcm4335_A0.hcd \
+	vendor/samsung/tabpro-common/proprietary/vendor/firmware/bcm4335.hcd:system/vendor/firmware/bcm4335.hcd \
+	vendor/samsung/tabpro-common/proprietary/vendor/firmware/bcm4335_murata.hcd:system/vendor/firmware/bcm4335_murata.hcd \
+	vendor/samsung/tabpro-common/proprietary/vendor/firmware/bcm4335_semco.hcd:system/vendor/firmware/bcm4335_semco.hcd \
+	vendor/samsung/tabpro-common/proprietary/vendor/firmware/BT_FW_VER_BCM4339_003.001.009.0031.0147_N1-LTE.hcd:system/vendor/firmware/BT_FW_VER_BCM4339_003.001.009.0031.0147_N1-LTE.hcd \
 	vendor/samsung/tabpro-common/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
 	vendor/samsung/tabpro-common/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
 	vendor/samsung/tabpro-common/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
