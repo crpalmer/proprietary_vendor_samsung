@@ -1,4 +1,4 @@
-# Copyright (C) 2011 The CyanogenMod Project
+# Copyright (C) 2014 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -84,9 +84,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/tabpro-common/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
 	vendor/samsung/tabpro-common/proprietary/lib/libmllite.so:system/lib/libmllite.so \
 	vendor/samsung/tabpro-common/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so \
-	vendor/samsung/tabpro-common/proprietary/lib/hw/mondrianwifi/sensors.msm8974.so:system/lib/hw/mondrianwifi/sensors.msm8974.so \
-	vendor/samsung/tabpro-common/proprietary/lib/hw/mondrianlte/sensors.msm8974.so:system/lib/hw/mondrianlte/sensors.msm8974.so \
-	vendor/samsung/tabpro-common/proprietary/lib/hw/picassolte/sensors.msm8974.so:system/lib/hw/picassolte/sensors.msm8974.so \
 	vendor/samsung/tabpro-common/proprietary/lib/libak8963c.so:system/lib/libak8963c.so \
 	vendor/samsung/tabpro-common/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
 	vendor/samsung/tabpro-common/proprietary/bin/efsks:system/bin/efsks \
@@ -119,8 +116,6 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/tabpro-common/proprietary/etc/imx134_module_info.xml:system/etc/imx134_module_info.xml \
 	vendor/samsung/tabpro-common/proprietary/etc/imx135_module_info.xml:system/etc/imx135_module_info.xml \
 	vendor/samsung/tabpro-common/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
-	vendor/samsung/tabpro-common/proprietary/lib/mondrian/libTsAe.so:system/lib/mondrian/libTsAe.so \
-	vendor/samsung/tabpro-common/proprietary/lib/picassolte/libTsAe.so:system/lib/picassolte/libTsAe.so \
 	vendor/samsung/tabpro-common/proprietary/lib/libTsAf.so:system/lib/libTsAf.so \
 	vendor/samsung/tabpro-common/proprietary/lib/libTs_J_Accm.so:system/lib/libTs_J_Accm.so \
 	vendor/samsung/tabpro-common/proprietary/lib/libTs_J_Awb.so:system/lib/libTs_J_Awb.so \
@@ -179,19 +174,9 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/tabpro-common/proprietary/lib/libmmqjpeg_codec.so:system/lib/libmmqjpeg_codec.so \
 	vendor/samsung/tabpro-common/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
 	vendor/samsung/tabpro-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-	vendor/samsung/tabpro-common/proprietary/lib/mondrian/libmmcamera_s5k6b2yx.so:system/lib/mondrian/libmmcamera_s5k6b2yx.so \
-	vendor/samsung/tabpro-common/proprietary/lib/picassolte/libmmcamera_s5k6b2yx.so:system/lib/picassolte/libmmcamera_s5k6b2yx.so \
 	vendor/samsung/tabpro-common/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
 	vendor/samsung/tabpro-common/proprietary/lib/libvdis.so:system/lib/libvdis.so \
 	vendor/samsung/tabpro-common/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-	vendor/samsung/tabpro-common/proprietary/vendor/lib/mondrian/libmmcamera_imx134.so:system/vendor/lib/mondrian/libmmcamera_imx134.so \
-	vendor/samsung/tabpro-common/proprietary/vendor/lib/mondrian/libmmcamera2_cpp_module.so:system/vendor/lib/mondrian/libmmcamera2_cpp_module.so \
-	vendor/samsung/tabpro-common/proprietary/vendor/lib/mondrian/libmmcamera2_isp_modules.so:system/vendor/lib/mondrian/libmmcamera2_isp_modules.so \
-	vendor/samsung/tabpro-common/proprietary/vendor/lib/mondrian/libmmcamera2_sensor_modules.so:system/vendor/lib/mondrian/libmmcamera2_sensor_modules.so \
-	vendor/samsung/tabpro-common/proprietary/vendor/lib/picassolte/libmmcamera_imx134.so:system/vendor/lib/picassolte/libmmcamera_imx134.so \
-	vendor/samsung/tabpro-common/proprietary/vendor/lib/picassolte/libmmcamera2_cpp_module.so:system/vendor/lib/picassolte/libmmcamera2_cpp_module.so \
-	vendor/samsung/tabpro-common/proprietary/vendor/lib/picassolte/libmmcamera2_isp_modules.so:system/vendor/lib/picassolte/libmmcamera2_isp_modules.so \
-	vendor/samsung/tabpro-common/proprietary/vendor/lib/picassolte/libmmcamera2_sensor_modules.so:system/vendor/lib/picassolte/libmmcamera2_sensor_modules.so \
 	vendor/samsung/tabpro-common/proprietary/vendor/lib/libmmcamera_imx135.so:system/vendor/lib/libmmcamera_imx135.so \
 	vendor/samsung/tabpro-common/proprietary/vendor/lib/libmmcamera_faceproc.so:system/vendor/lib/libmmcamera_faceproc.so \
 	vendor/samsung/tabpro-common/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
