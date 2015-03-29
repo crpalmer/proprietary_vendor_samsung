@@ -65,19 +65,20 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/tabpro-common/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
 	vendor/samsung/tabpro-common/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
 	vendor/samsung/tabpro-common/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
-	vendor/samsung/tabpro-common/proprietary/vendor/lib/egl/libplayback_adreno.so:system/vendor/lib/egl/libplayback_adreno.so \
 	vendor/samsung/tabpro-common/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
 	vendor/samsung/tabpro-common/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+	vendor/samsung/tabpro-common/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
 	vendor/samsung/tabpro-common/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
 	vendor/samsung/tabpro-common/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
 	vendor/samsung/tabpro-common/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
 	vendor/samsung/tabpro-common/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-	vendor/samsung/tabpro-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
 	vendor/samsung/tabpro-common/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
-	vendor/samsung/tabpro-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
-	vendor/samsung/tabpro-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
-	vendor/samsung/tabpro-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
+	vendor/samsung/tabpro-common/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
 	vendor/samsung/tabpro-common/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
+	vendor/samsung/tabpro-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
+	vendor/samsung/tabpro-common/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
+	vendor/samsung/tabpro-common/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
+	vendor/samsung/tabpro-common/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
 	vendor/samsung/tabpro-common/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
 	vendor/samsung/tabpro-common/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
 	vendor/samsung/tabpro-common/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
@@ -205,20 +206,18 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/tabpro-common/proprietary/vendor/lib/liboemcamera.so:system/vendor/lib/liboemcamera.so \
 	vendor/samsung/tabpro-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
 	vendor/samsung/tabpro-common/proprietary/bin/qseecomd:system/bin/qseecomd \
-	vendor/samsung/tabpro-common/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
-	vendor/samsung/tabpro-common/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
+	vendor/samsung/tabpro-common/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
+	vendor/samsung/tabpro-common/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
 	vendor/samsung/tabpro-common/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-	vendor/samsung/tabpro-common/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+	vendor/samsung/tabpro-common/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
 	vendor/samsung/tabpro-common/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
 	vendor/samsung/tabpro-common/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
 	vendor/samsung/tabpro-common/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
 	vendor/samsung/tabpro-common/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
 	vendor/samsung/tabpro-common/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-	vendor/samsung/tabpro-common/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
+	vendor/samsung/tabpro-common/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
 	vendor/samsung/tabpro-common/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-	vendor/samsung/tabpro-common/proprietary/vendor/lib/libWVphoneAPI.so:system/vendor/lib/libWVphoneAPI.so \
-	vendor/samsung/tabpro-common/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-	vendor/samsung/tabpro-common/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
+	vendor/samsung/tabpro-common/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
 	vendor/samsung/tabpro-common/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
 	vendor/samsung/tabpro-common/proprietary/etc/sec_config:system/etc/sec_config \
 	vendor/samsung/tabpro-common/proprietary/bin/irsc_util:system/bin/irsc_util \
